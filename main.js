@@ -10,8 +10,8 @@ const contactDropdown = document.getElementById("contact-form")
 const navBar = document.getElementById("navbar")
 
 function selected () {
-  dwButton.classList.toggle("selected");
   aboutButton.classList.toggle("selected");
+  // dwButton.classList.toggle("selected");
 }
 
 function showDropdown () {
@@ -24,8 +24,8 @@ function showDropdown () {
 
 function goHome () {
   aboutTextDropdown.classList.remove("about-text-dropdown");
-  dwButton.classList.remove("selected");
   aboutButton.classList.remove("selected");
+  dwButton.classList.remove("selected");
   reelLeftButton.classList.remove("carat-popup");
   reelRightButton.classList.remove("carat-popup");
   contactDropdown.classList.remove("contact-form-dropdown");
@@ -35,8 +35,8 @@ function goHome () {
   
 }
 
-dwButton.addEventListener("click", selected);
-dwButton.addEventListener("click", showDropdown);
+// dwButton.addEventListener("click", selected);
+// dwButton.addEventListener("click", showDropdown);
 aboutButton.addEventListener("click", selected);
 aboutButton.addEventListener("click", showDropdown);
 homeButton.addEventListener("click", goHome);
@@ -52,6 +52,7 @@ function showContactDropdown () {
   contactDropdown.classList.toggle("contact-form-dropdown");
   navBar.classList.toggle("navbar-dropdown");
   aboutTextDropdown.classList.remove("about-text-dropdown");
+  dwButton.classList.remove("dw-button-dropdown");
   dwButton.classList.remove("selected");
   aboutButton.classList.remove("selected");
 }
