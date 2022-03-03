@@ -1,51 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./style.css" />
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-  <script src="./contact-form.js" defer></script>
-  <script src="./main.js" defer></script>
-  <title>dean wallflower</title>
-</head>
-<body>
-  <div class="wrapper">
-  <div id="dw-button" class="dw-button">
-    <div class="dw-wrapper clickable">dean<br>wallflower</div>
-    <div id="about-text" class="about-text">
-      <p>is a media artist specialising in graphics and visual effects.</p>
-      <p>the generative art pieces are created in code and can be made audio-reactive.</p>
-      <p>this makes them perfect for video installations, music videos, background visuals 
-        for performance,  or content for social media.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script src="./contact-form.js" defer></script>
+    <script src="./main.js" defer></script>
+    <title>dean wallflower</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="dw-button" class="dw-wrapper clickable">
+        <p>dean<br />wallflower</p>
+
+        <div id="about-text" class="about-text">
+          <p>is a media artist specialising in graphics and visual effects.</p>
+          <p>
+            the generative art pieces are created in code and can be made
+            audio-reactive.
+          </p>
+          <p>
+            this makes them perfect for video installations, music videos,
+            background visuals for performance, or content for social media.
+          </p>
+        </div>
       </div>
-  </div>
-  <div id="navbar" class="navbar">
-    <div id="home" class="clickable home">home</div>
-    <div id="about" class="clickable about">about</div>
-    <div id="reel" class="clickable reel">reel</div>
-    <div id="contact" class="clickable contact">contact</div>
-  </div>
-  
-  <div id="contact-desktop" class="clickable contact-desktop">contact</div>
-  <div id="contact-form" class="contact-form">
-      <form>
-        <input type="hidden" name="contact_number">
-        <label><p>name</p></label>
-        <input type="text" name="user_name">
-        <label><p>e-mail</p></label>
-        <input type="email" name="user_email">
-        <label><p>message</p></label>
-        <textarea name="message"></textarea>
-        <button id="send-button" class="clickable" type="submit">send</button>
-      </form>
-  </div>
-  <div class="clickable left carat"></div>
-  <div class="clickable right carat"></div>
-</div>
-</body>
+      <div id="navbar" class="navbar">
+        <div id="home" class="clickable home">home</div>
+        <div id="about" class="clickable about">about</div>
+        <div id="reel" class="clickable reel">reel</div>
+        <div id="contact" class="clickable contact">contact</div>
+      </div>
+
+      <div id="contact-desktop" class="clickable contact-desktop">contact</div>
+      <div id="contact-form" class="contact-form">
+        <form>
+          <input type="hidden" name="contact_number" />
+          <label><p>name</p></label>
+          <input type="text" name="user_name" />
+          <label><p>e-mail</p></label>
+          <input type="email" name="user_email" />
+          <label><p>message</p></label>
+          <textarea name="message"></textarea>
+          <button id="send-button" class="clickable" type="submit">send</button>
+        </form>
+      </div>
+      <div class="clickable left carat"></div>
+      <div class="clickable right carat"></div>
+    </div>
+  </body>
 </html>
